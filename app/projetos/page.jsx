@@ -17,7 +17,6 @@ import {
 
 import Link from "next/link";
 import Image from "next/image";
-import { Sliders } from "lucide-react";
 
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
@@ -57,8 +56,19 @@ const projects = [
   // },
   {
     num: "01",
+    category: "Fullstack",
+    title: "project 1",
+    description:
+      "A aplicação permite adicionar, editar e excluir tarefas de forma eficiente, com comunicação em tempo real entre o frontend e o backend, garantindo uma experiência de usuário fluida e intuitiva.",
+    stack: [{ name: "React" }, { name: "Node.js" }, { name: "MongoDB" }],
+    image: "/assets/taskmanager_page-0001.jpg",
+    live: "https://taskmanager-4x4.pages.dev/dashboard",
+    github: "https://github.com/JoaoGomesss/taskmanager",
+  },
+  {
+    num: "02",
     category: "frontend",
-    title: "project 3",
+    title: "project 2",
     description:
       "Lista de tarefas que se comunica com uma API para armazenar e recuperar dados, permitindo adicionar, editar e excluir tarefas de forma eficiente.",
     stack: [{ name: "React" }, { name: "Redux" }, { name: "TypeScript" }],
@@ -67,9 +77,9 @@ const projects = [
     github: "https://github.com/JoaoGomesss/to-do-list",
   },
   {
-    num: "02",
+    num: "03",
     category: "frontend",
-    title: "project 4",
+    title: "project 3",
     description:
       "Site institucional feito para captação de leads de um profissional de educação física",
     stack: [{ name: "React" }, { name: "UI/UX Design" }, { name: "Figma" }],

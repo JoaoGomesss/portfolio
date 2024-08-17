@@ -32,7 +32,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/joao_gomes_cv.pdf"
+                href="/Resumé.pdf"
                 download
                 className="uppercase flex items-center gap-2 border border-accent px-4 py-2 text-lg text-accent rounded-md hover:bg-accent  hover:text-primary transition"
               >
