@@ -4,13 +4,19 @@ import {
   FaHtml5,
   FaJs,
   FaReact,
-  FaBootstrap,
   FaNodeJs,
   FaFigma,
   FaGithub,
+  FaDocker,
 } from "react-icons/fa";
 
-import { BiLogoTypescript, BiLogoRedux, BiLogoMongodb } from "react-icons/bi";
+import {
+  BiLogoTypescript,
+  BiLogoRedux,
+  BiLogoMongodb,
+  BiLogoTailwindCss,
+} from "react-icons/bi";
+import { SiPrisma, SiPostgresql } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiExpress, SiNextdotjs } from "react-icons/si";
 
@@ -98,6 +104,10 @@ const skills = {
       name: "CSS 3",
     },
     {
+      icon: <BiLogoTailwindCss />,
+      name: "Tailwind",
+    },
+    {
       icon: <FaJs />,
       name: "JavaScript",
     },
@@ -128,6 +138,18 @@ const skills = {
     {
       icon: <BiLogoMongodb />,
       name: "MongoDB",
+    },
+    {
+      icon: <SiPrisma />,
+      name: "Prisma",
+    },
+    {
+      icon: <FaDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
     },
     {
       icon: <FaGithub />,
