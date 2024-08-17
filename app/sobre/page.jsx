@@ -31,7 +31,7 @@ const about = {
 const experience = {
   title: "Experiência",
   description:
-    "Sou desenvolvedor frontend com experiência como freelancer desde 2023 e fui estagiário em empresas como Moura Dubeux, Ventana, e CSC, desenvolvendo habilidades em projetos diversificados e colaborando em equipes multidisciplinares.",
+    "Sou desenvolvedor fullstack com experiência como freelancer desde 2023 e fui estagiário em empresas como Moura Dubeux, Ventana, e CSC, desenvolvendo habilidades em projetos diversificados e colaborando em equipes multidisciplinares.",
   items: [
     {
       company: "-",
@@ -87,7 +87,7 @@ const education = {
 const skills = {
   title: "Habilidades",
   description:
-    "Como desenvolvedor frontend, adquiri habilidades essenciais através de projetos reais utilizando tecnologias requisitadas pelo mercado, como React, TypeScript, Next, entre outras. Minha experiência abrange design responsivo, otimização de desempenho e colaboração eficaz.",
+    "Como desenvolvedor fullstack, adquiri habilidades essenciais através de projetos reais utilizando tecnologias requisitadas pelo mercado, como React, TypeScript, Next, entre outras. Minha experiência abrange design responsivo, otimização de desempenho e colaboração eficaz.",
   skillList: [
     {
       icon: <FaHtml5 />,

@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 import Socials from "@/components/Socials";
@@ -19,7 +18,7 @@ const Home = () => {
           xl:pb-24"
         >
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Desenvolvedor Frontend</span>
+            <span className="text-xl">Desenvolvedor Fullstack</span>
             <h1 className="h1 mb-6">
               Olá, me chamo
               <br /> <span className="text-accent">João Gomes</span>
