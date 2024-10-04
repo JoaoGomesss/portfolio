@@ -32,7 +32,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Endereço",
-    description: "Salvador-BA, AV. Euclydes da Cunha - Graça",
+    description: "Salvador-BA, Av. Euclydes da Cunha - Graça",
   },
 ];
 

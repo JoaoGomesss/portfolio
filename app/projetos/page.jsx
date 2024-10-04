@@ -21,43 +21,21 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
-  // {
-  //   num: "01",
-  //   category: "FullStack",
-  //   title: "project 1",
-  //   description:
-  //     "E-commerce que oferece uma interface fácil de usar para pesquisar e comprar produtos dentre uma ampla seleção que varia em modelo, tamanho e preço.",
-  //   stack: [
-  //     { name: "ReactJs" },
-  //     { name: "MongoDB" },
-  //     { name: "Express" },
-  //     { name: "NodeJs" },
-  //   ],
-  //   image: "/",
-  //   live: "",
-  //   github: "",
-  // },
-  // {
-  //   num: "02",
-  //   category: "FullStack",
-  //   title: "project 2",
-  //   description:
-  //     "Um app de barbearia para agendar os serviços requisitados pelos clientes.",
-  //   stack: [
-  //     { name: "ReactJs" },
-  //     { name: "TypeScript" },
-  //     { name: "NextJs" },
-  //     { name: "PostgreSQL" },
-  //     { name: "Prisma" },
-  //   ],
-  //   image: "/",
-  //   live: "",
-  //   github: "",
-  // },
   {
     num: "01",
-    category: "Fullstack",
+    category: "FullStack",
     title: "project 1",
+    description:
+      "E-commerce que oferece uma interface intuitiva e prática para explorar e adquirir produtos de uma vasta seleção, proporcionando uma experiência de compra rápida e eficiente.",
+    stack: [{ name: "ReactJs" }, { name: "TypeScript" }, { name: "Firestore" }],
+    image: "/assets/cosmo-apparel.jpg",
+    live: "https://ecommerce-front-cv8uplvgc-jows-projects-9784ef6c.vercel.app/",
+    github: "https://github.com/JoaoGomesss/ecommerce-front",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "project 2",
     description:
       "A aplicação permite adicionar, editar e excluir tarefas de forma eficiente, com comunicação em tempo real entre o frontend e o backend, garantindo uma experiência de usuário fluida e intuitiva.",
     stack: [{ name: "React" }, { name: "Node.js" }, { name: "MongoDB" }],
@@ -66,20 +44,20 @@ const projects = [
     github: "https://github.com/JoaoGomesss/taskmanager",
   },
   {
-    num: "02",
+    num: "03",
     category: "frontend",
-    title: "project 2",
+    title: "project 3",
     description:
       "Lista de tarefas que se comunica com uma API para armazenar e recuperar dados, permitindo adicionar, editar e excluir tarefas de forma eficiente.",
-    stack: [{ name: "React" }, { name: "Redux" }, { name: "TypeScript" }],
+    stack: [{ name: "React" }, { name: "TypeScript" }],
     image: "/assets/2.png",
     live: "https://to-do-list-ehq.pages.dev/",
     github: "https://github.com/JoaoGomesss/to-do-list",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
-    title: "project 3",
+    title: "project 4",
     description:
       "Site institucional feito para captação de leads de um profissional de educação física",
     stack: [{ name: "React" }, { name: "UI/UX Design" }, { name: "Figma" }],

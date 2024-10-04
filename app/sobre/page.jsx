@@ -18,7 +18,7 @@ import {
 } from "react-icons/bi";
 import { SiPrisma, SiPostgresql } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { SiExpress, SiNextdotjs } from "react-icons/si";
+import { SiJest, SiNextdotjs } from "react-icons/si";
 
 const about = {
   title: "Sobre Mim",
@@ -132,8 +132,8 @@ const skills = {
       name: "NodeJs",
     },
     {
-      icon: <SiExpress />,
-      name: "Express",
+      icon: <SiJest />,
+      name: "Jest",
     },
     {
       icon: <BiLogoMongodb />,
