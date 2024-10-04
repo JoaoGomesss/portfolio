@@ -29,7 +29,7 @@ const projects = [
       "E-commerce que oferece uma interface intuitiva e prática para explorar e adquirir produtos de uma vasta seleção, proporcionando uma experiência de compra rápida e eficiente.",
     stack: [{ name: "ReactJs" }, { name: "TypeScript" }, { name: "Firestore" }],
     image: "/assets/cosmo-apparel.jpg",
-    live: "https://ecommerce-front-cv8uplvgc-jows-projects-9784ef6c.vercel.app/",
+    live: "https://ecommerce-front-jylm4g76g-jows-projects-9784ef6c.vercel.app/",
     github: "https://github.com/JoaoGomesss/ecommerce-front",
   },
   {
