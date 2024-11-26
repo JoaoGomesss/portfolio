@@ -34,8 +34,26 @@ const projects = [
   },
   {
     num: "02",
-    category: "Fullstack",
+    category: "Backend",
     title: "project 2",
+    description:
+      "Solução backend robusta e escalável, projetada para gerenciar e monitorar dados financeiros, servindo como a base perfeita para um painel financeiro completo.",
+    stack: [
+      ,
+      { name: "Node.js" },
+      { name: "Prisma" },
+      { name: "PostgreSQL" },
+      { name: "Docker" },
+      { name: "Jest" },
+    ],
+    image: "/assets/swagger-finance-api.png",
+    live: "https://finance-dashboard-api-ip86.onrender.com/docs/#/",
+    github: "https://github.com/JoaoGomesss/finance_dashboard_api",
+  },
+  {
+    num: "03",
+    category: "Fullstack",
+    title: "project 3",
     description:
       "A aplicação permite adicionar, editar e excluir tarefas de forma eficiente, com comunicação em tempo real entre o frontend e o backend, garantindo uma experiência de usuário fluida e intuitiva.",
     stack: [{ name: "React" }, { name: "Node.js" }, { name: "MongoDB" }],
@@ -44,9 +62,9 @@ const projects = [
     github: "https://github.com/JoaoGomesss/taskmanager",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
-    title: "project 3",
+    title: "project 4",
     description:
       "Lista de tarefas que se comunica com uma API para armazenar e recuperar dados, permitindo adicionar, editar e excluir tarefas de forma eficiente.",
     stack: [{ name: "React" }, { name: "TypeScript" }],
@@ -55,9 +73,9 @@ const projects = [
     github: "https://github.com/JoaoGomesss/to-do-list",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
-    title: "project 4",
+    title: "project 5",
     description:
       "Site institucional feito para captação de leads de um profissional de educação física",
     stack: [{ name: "React" }, { name: "UI/UX Design" }, { name: "Figma" }],
